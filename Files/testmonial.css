@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #e6e6e6;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: "Itim", cursive;
+  background-image: linear-gradient(45deg, #28313b, #485461);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60vw;
+  height: 90vh;
+}
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.head h4 {
+  font-size: 30px;
+}
+
+.head h1 {
+  font-size: 45px;
+}
+
+.mainContainer {
+  width: 85%;
+  height: 75%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.sub-mainContainer {
+  border: 5px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 85%;
+  height: 75%;
+}
+
+.sub-mainContainer h1 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.fa-quote-left {
+  font-size: 35px;
+}
+
+.imgShow {
+  position: absolute;
+  top: 0;
+  background-image: url("../images/contBcg-0.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.far {
+  position: absolute;
+  font-size: 40px;
+  color: grey;
+  cursor: pointer;
+}
+
+.far:hover {
+  color: honeydew;
+}
+
+.fa-caret-square-left {
+  top: 50%;
+  left: 2%;
+}
+
+.fa-caret-square-right {
+  top: 50%;
+  right: 2%;
+}
+/*# sourceMappingURL=Testmonial.css.map */
